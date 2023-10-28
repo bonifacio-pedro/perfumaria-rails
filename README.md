@@ -1,24 +1,5 @@
-# README
+# Perfumaria RAILS!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ainda em desenvolvimento, busco implementar o Docker para facilitar o teste.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Esta é minha primeira aplicação feita sem scaffold em rails, um CRUD, com SQLite3 e Tailwind!
