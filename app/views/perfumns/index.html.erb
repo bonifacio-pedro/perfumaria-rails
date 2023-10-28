@@ -1,0 +1,12 @@
+
+<div class="p-5 grid grid-cols-3 gap-4">
+    <% @perfumns.each do |perfumn|%>
+        <div class="bg-gray-100 p-10 hover:bg-gray-300 transition rounded">
+            <%= render 'perfumns', perfumn: perfumn  %>
+            <br/>
+            <%= link_to 'Mostrar', perfumn_path(perfumn.id) %>
+        </div>
+    <% end %>
+</div>
+
+
