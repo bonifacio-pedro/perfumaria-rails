@@ -1,9 +1,10 @@
 # Perfumaria RAILS!
 
-A fazer:
+To-Do:
 [ ] Docker
 [ ] RSpec
-[ ] Rubocop
+[X] Rubocop
+[X] Postgres
 
 Ainda em desenvolvimento, busco implementar o Docker para facilitar o teste.
 
