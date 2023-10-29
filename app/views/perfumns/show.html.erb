@@ -1,8 +1,8 @@
-<div class="bg-gray-100 p-10 hover:bg-gray-300 transition rounded">
-    <%= render 'perfumns', perfumn: @perfumn  %>
+<div class="bg-gray-100 p-10 hover:bg-gray-300 transition rounded w-100">
+    <%= render 'perfumns', perfumn: @perfumn, size_to: "120x100"  %>
     <br/>
    	<%= link_to 'Editar', edit_perfumn_path(@perfumn.id) %>
     <br/>
-	<%= link_to 'Deletar', perfumn_path(@perfumn.id), data: {'turbo-method': :delete} %>
+	<%= link_to 'Deletar', perfumn_path(@perfumn), method: :delete %>
  </div>
 
